@@ -4,7 +4,7 @@
 	Doel:       Verkenning van pwa-bleutooth en aanverwante zaken
 	Auteur:     Avans hogeschool
 	Datum:      22 mei 2021
-	Toelichting:Script dat pas runt als pagina is geladen
-					Handelt UI en functionaliteit af
+	Toelichting:Script dat direct runt, ongeacht DOM
+					Handelt initiële zaken af ter voorbereiding
 */
-console.log('> script.js');
+console.log('> init.js');

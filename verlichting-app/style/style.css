@@ -1,0 +1,21 @@
+/*
+	Project:    De Verlichting
+	Opdracht:   MDEV - Theron Garay
+	Doel:       Verkenning van pwa-bleutooth en aanverwante zaken
+	Auteur:     Avans hogeschool
+	Datum:      22 mei 2021
+	Toelichting:Mobile First !! (of zelfs watch first?)
+					Andere CSS in aparte bestanden of hier met @media?
+*/
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+	font-size: 16px; // Basis voor de rem unit
+}
+body {
+	height: 100%;
+}
