@@ -9,10 +9,11 @@ if('serviceWorker' in navigator){
 	});
 }
 
-// Gebruiker wordt gevraagd om app te installeren op homescreen
+// Gebruiker wordt gevraagd (promted) om app te installeren op homescreen
 window.addEventListener('beforeinstallprompt', function(event){
 	console.log('Beforeinstallprompt is fired!');
 	event.preventDefault();
 	deferredPrompt = event;
 	return false;
 });
+
