@@ -21,9 +21,19 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Playfair Display', serif;
 	font-weight:800;
 	color:#FECA53;
+	padding:20px;
 }
 p{
 	font-family: 'Source Sans Pro', serif;
 	font-weight:200;
 	color:#FECA53;
+	padding:0px 20px 0px 20px;
+}
+
+h1{
+	font-size:4rem;
+}
+
+h2{
+	font-size:1.5rem;
 }
